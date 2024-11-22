@@ -1,7 +1,7 @@
 resources:
 - deployment.yaml
 - service.yaml
-- route,yaml
+- route.yaml
 
 commonLabels:
   app: kustomwebapp
