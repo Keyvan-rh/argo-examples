@@ -9,7 +9,7 @@ spec:
   path: /
   to:
     kind: Service
-    name: mywebapp
+    name: kustom-mywebapp-v1
     weight: 100
   port:
     targetPort: flask
