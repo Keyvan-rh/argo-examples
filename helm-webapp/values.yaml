@@ -8,5 +8,5 @@ configmap:
     CUSTOM_HEADER: 'This app was deployed with helm!'
 
 image:
-  name: image-registry.openshift-image-registry.svc:5000/kp-test/nodejs-basic@sha256:6c045b73ec076afcb2ad908611af8220ddcc94fd82b580059586403e86ac208d
-  tag: 
+  name: quay.io/openshift-scale/nginx
+  tag: latest
