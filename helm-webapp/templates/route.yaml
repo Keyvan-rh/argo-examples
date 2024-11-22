@@ -5,7 +5,7 @@ metadata:
   labels:
     app: {{ .Values.appName }}
 spec:
-  host: {{ .Values.appName }}
+  host: 
   path: /
   to:
     kind: Service
