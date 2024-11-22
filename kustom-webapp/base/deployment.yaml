@@ -8,9 +8,9 @@ spec:
     spec: # Pod spec
       containers:
       - name: mycontainer
-        image: "devopsjourney1/mywebapp:latest"
+        image: "quay.io/openshift-scale/nginx"
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         envFrom:
         - configMapRef:
             name: mykustom-map
