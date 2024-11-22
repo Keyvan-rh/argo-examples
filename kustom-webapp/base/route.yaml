@@ -1,15 +1,15 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: mywebapp2
+  name: mywebapp
   labels:
-    app: mywebapp2
+    app: mywebapp
 spec:
   host: 
   path: /
   to:
     kind: Service
-    name: myhelmapp
+    name: mywebapp
     weight: 100
   port:
     targetPort: flask
