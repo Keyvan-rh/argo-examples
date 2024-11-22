@@ -1,9 +1,9 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: {{ .Values.appName }}
+  name: mywebapp2
   labels:
-    app: {{ .Values.appName }}
+    app: mywebapp2
 spec:
   host: 
   path: /
